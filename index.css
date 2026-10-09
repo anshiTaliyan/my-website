@@ -12,17 +12,19 @@ body{
 }
 nav{
     background-color: #172554;
-    padding: 20px 6%;
+    padding: 20px 3%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    gap: 20px;
+
 }
-nav div{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+nav .logo{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-right: auto;
 }
 nav a{
     display: inline-block ;
@@ -86,13 +88,13 @@ footer{
     font-size: 24px;
     font-weight: bold;
     white-space: nowrap;
+    margin-right: auto;
 }
 nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
-    gap: 40px;
+    gap: 12px;
    list-style: none;
    margin: 0;
    padding: 0;
